@@ -19,7 +19,10 @@ fetch("https://api.artic.edu/api/v1/artworks?limit=24&fields=id,title,artist_dis
     const imageUrl = `https://www.artic.edu/iiif/2/${artwork.image_id}/full/843,/0/default.jpg`;
     img.src = imageUrl;
 
-    
+    const viewDetailsBtn = getElementsByClassName("view-details")
+    viewDetailsBtm.addEventListetner(
+      
+    )
   }
 })
 
