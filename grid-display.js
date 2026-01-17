@@ -49,7 +49,7 @@ async function renderPage(page) {
 
     const desc = document.createElement("div");
     desc.className = "art-desc";
-    desc.innerHTML = `<strong>${obj.title}</strong><br>${obj.artist_display || "Unknown"}<br>${obj.date_display || ""}`;
+    desc.innerHTML = `<strong>${obj.title}</strong>`;
 
     item.appendChild(img);
     item.appendChild(desc);
